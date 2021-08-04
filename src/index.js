@@ -14,10 +14,11 @@ const App =  ()  => {
 
     const buttonText = { text: 'Click me' };
     const style = { backgroundColor: 'red' , color: 'white' };
+    const labelText = 'Enter your name';
 
     return (
     <div>
-     <label className="label" for="name" > Enter name </label>
+     <label className="label" for="name" > {labelText} </label>
      <input id="name" type="text" />
         {/* <button style={{ backgroundColor: 'red', color: 'white' }}>  { buttonText.text } </button> */}
         <button style={style}>  { buttonText.text } </button>
