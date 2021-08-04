@@ -4,8 +4,19 @@ import ReactDOM from 'react-dom';
 
 
 // create react component
+const App =  ()  => {
 
+return <div> hi there </div>;
+
+};
 
 
 // Take the react component and show it on the screen
+ReactDOM.render(
+  <App />, document.querySelector('#root'))
 
+
+
+if (module.hot) {
+    module.hot.accept();
+  }
